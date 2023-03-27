@@ -1,0 +1,10 @@
+#ejercicio-1 {
+    border: solid 2px blue;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+#ejercicio-1 > h1 {
+    width: 100%; 
+}
