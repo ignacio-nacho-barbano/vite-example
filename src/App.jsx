@@ -18,6 +18,7 @@ function App() {
         {ejercicio === 2 &&<EjercicioR52/>}
         {ejercicio === 1 &&<EjercicioDos/> }
         {ejercicio === 0 && <EjercicioUno/>}
+
         <div>
           <button onClick={()=>setEjercicio(2)}>Ejercicio 3</button>
           <button onClick={()=>setEjercicio(1)}>Ejercicio 2</button>
